@@ -1,6 +1,6 @@
 # Spotify-like Homepage
 
-![Homepage Screenshot](./static/screenshot/screenshot.png)
+![Homepage Screenshot](./static/screenshot/Screenshot 2023-08-02 at 11.26.25 AM.jpg)
 
 ## Description
 
