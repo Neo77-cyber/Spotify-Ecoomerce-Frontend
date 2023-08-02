@@ -1,6 +1,6 @@
 # Spotify-like Homepage
 
-![Homepage Screenshot](./static/screenshot.png)
+![Homepage Screenshot](./static/screenshot/screenshot.png)
 
 ## Description
 
@@ -22,7 +22,7 @@ This project is a simple Spotify-like homepage created using Bootstrap, HTML, CS
 
 ## Screenshots
 
-![Screenshot ](./static/screenshots/screenshot.png)
+![Screenshot ](./static/screenshot/screenshot.png)
 
 
 ## Built With
