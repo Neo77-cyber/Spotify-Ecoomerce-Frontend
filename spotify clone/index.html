@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Music Player</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <img src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle" height="40px" alt="">
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section>
+        <div class="container-fluid text-start bg-dark text-light">
+            <div class="row">
+              <div class="col-md-2 mb-3">
+                <a href="#" class="text-decoration-none">
+                <img src="static/img/omahlay.png" width="150px" alt="">
+                </a>
+              </div>
+              <div class="col-md-8 text-start">
+                <a href="#" class="text-light" style="text-decoration: none;"> <h1>Troy Sivan Complete Collection</h1></a>
+                <a href="#" class="text-light" style="text-decoration: none;"><p>LISTEN NOW</p></a>
+                <button class="btn btn-success">Play</button>
+                <button class="btn btn-success">Follow</button>
+              </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-dark">     
+        <h3 class="text-light ms-3">Good evening</h3>
+        <div class="container-fluid text-center">
+            <div class="row">
+                <div class="col">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body d-flex align-items-center">
+                            <a href="#" class="text-decoration-none">
+                            <img src="static/img/jiggy.jpeg" alt="" width="65px">
+                            </a>
+                            <a href="#" class="text-light"  style="text-decoration: none;">
+                                <div class="ms-3">Jiggy</div>
+                            </a>   
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body d-flex align-items-center">
+                            <a href="#" class="text-decoration-none">
+                            <img src="static/img/Locked In.jpeg" alt="" width="65px">
+                            </a> 
+                            <a href="#" class="text-light"  style="text-decoration: none;">
+                                <div class="ms-3">Locked In</div>
+                            </a>
+                        </div>
+                    </div>
+                 </div>
+                <div class="col">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body d-flex align-items-center">
+                            <a href="#" class="text-decoration-none">
+                            <img src="static/img/Mellow.jpeg" alt="" width="65px">
+                            </a> 
+                            <a href="#" class="text-light"  style="text-decoration: none;">
+                                <div class="ms-3">Mellow</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row py-3">
+                <div class="col">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body d-flex align-items-center">
+                            <a href="#" class="text-decoration-none">
+                            <img src="static/img/cut.jpeg" alt="" width="65px"> 
+                            </a>
+                            <a href="#" class="text-light"  style="text-decoration: none;">
+                                <div class="ms-3">Still in the Cut</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body d-flex align-items-center">
+                            <a href="#" class="text-decoration-none">
+                            <img src="static/img/smooth.jpeg" alt="" width="65px"> 
+                            </a>
+                            <a href="#" class="text-light"  style="text-decoration: none;">
+                                <div class="ms-3">Smooth Sailing</div>
+                            </a>
+                        </div>
+                    </div>
+                 </div>
+                <div class="col">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body d-flex align-items-center">
+                            <a href="#" class="text-decoration-none">
+                            <img src="static/img/party dey.jpeg" alt="" width="65px"> 
+                            </a>
+                            <a href="#" class="text-light"  style="text-decoration: none;">
+                                <div class="ms-3">Party No dey Stop</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-dark">
+        <h4 class="text-light ms-3">Made for You</h4>
+        <div class="container-fluid text-center">
+            <div class="row">
+              <div class="col">
+                <a href="#" class="text-decoration-none">
+                <div class="card bg-secondary text-light d-flex align-items-center justify-content-center py-3">
+                    <img src="static/img/naijabars.jpeg" height="240px" alt=""> 
+                </div>
+                </a>
+              </div>
+              <div class="col">
+                <a href="#" class="text-decoration-none">
+                <div class="card bg-secondary text-light d-flex align-items-center justify-content-center py-3">
+                    <img src="static/img/afrohits.jpeg" height="240px" alt=""> 
+                </div>
+                </a>
+              </div>
+              <div class="col">
+                <a href="#" class="text-decoration-none">
+                <div class="card bg-secondary text-light d-flex align-items-center justify-content-center py-3">
+                    <img src="static/img/africanheat.jpeg" height="240px" alt=""> 
+                </div>
+                </a>
+              </div>
+              <div class="col">
+                <a href="#" class="text-decoration-none">
+                <div class="card bg-secondary text-light d-flex align-items-center justify-content-center py-3">
+                    <img src="static/img/dailymix.jpeg" height="240px" alt=""> 
+                </div>
+                </a>
+              </div>
+              <div class="col">
+                <a href="#" class="text-decoration-none">
+                <div class="card bg-secondary text-light d-flex align-items-center justify-content-center py-3">
+                    <img src="static/img/traviscott.jpeg" height="240px" alt=""> 
+                </div>
+                </a>
+              </div>       
+            </div>
+          </div>
+    </section>
+    <section class="bg-dark py-4">
+        <h4 class="text-light ms-3">Best Of Artists</h4>
+        <div class="container-fluid text-center">
+            <div class="row">
+              <div class="col">
+                <a href="#" class="text-decoration-none">
+                <div class="card bg-secondary text-light d-flex align-items-center justify-content-center py-3">
+                    <img src="static/img/wizkid.jpeg" height="240px" alt=""> 
+                </div>
+                </a>
+              </div>
+              <div class="col">
+                <a href="#" class="text-decoration-none">
+                <div class="card bg-secondary text-light d-flex align-items-center justify-content-center py-3">
+                    <img src="static/img/burna.jpeg" height="240px" alt=""> 
+                </div>
+                </a>
+              </div>
+              <div class="col">
+                <a href="#" class="text-decoration-none">
+                <div class="card bg-secondary text-light d-flex align-items-center justify-content-center py-3">
+                    <img src="static/img/davido.jpeg" height="240px" alt=""> 
+                </div>
+                </a>
+              </div>
+              <div class="col">
+                <a href="#" class="text-decoration-none">
+                <div class="card bg-secondary text-light d-flex align-items-center justify-content-center py-3">
+                    <img src="static/img/rema.jpeg" height="240px" alt=""> 
+                </div>
+                 </a>
+              </div>
+              <div class="col">
+                <a href="#" class="text-decoration-none">
+                <div class="card bg-secondary text-light d-flex align-items-center justify-content-center py-3">
+                    <img src="static/img/omahlayyyy.jpeg" height="240px" alt=""> 
+                </div>
+                </a>
+              </div>       
+            </div>
+          </div>
+    </section>
+    <section class="bg-dark py-4">
+        <h4 class="text-light ms-3">Your Top Mixes</h4>
+        <div class="container-fluid text-center">
+            <div class="row">
+              <div class="col">
+                <a href="#" class="text-decoration-none">
+                <div class="card bg-secondary text-light d-flex align-items-center justify-content-center py-3">
+                    <img src="static/img/yourmix1.jpg" height="240px" alt=""> 
+                </div>
+                </a>
+              </div>
+              <div class="col">
+                <a href="#" class="text-decoration-none">
+                <div class="card bg-secondary text-light d-flex align-items-center justify-content-center py-3">
+                    <img src="static/img/yourmix2.jpeg" height="240px" alt=""> 
+                </div>
+                </a>
+              </div>
+              <div class="col">
+                <a href="#" class="text-decoration-none">
+                <div class="card bg-secondary text-light d-flex align-items-center justify-content-center py-3">
+                    <img src="static/img/yourmix3.jpg" height="240px" alt=""> 
+                </div>
+                </a>
+              </div>
+              <div class="col">
+                <a href="#" class="text-decoration-none">
+                <div class="card bg-secondary text-light d-flex align-items-center justify-content-center py-3">
+                    <img src="static/img/yourmix4.jpg" height="240px" alt=""> 
+                </div>
+                 </a>
+              </div>
+              <div class="col">
+                <a href="#" class="text-decoration-none">
+                <div class="card bg-secondary text-light d-flex align-items-center justify-content-center py-3">
+                    <img src="static/img/yourmi5.jpg" height="240px" alt=""> 
+                </div>
+                </a>
+              </div>       
+            </div>
+          </div>
+    </section>
+    <section class="bg-dark py-4">
+        <h4 class="text-light ms-3">Episodes for You</h4>
+        <div class="container-fluid text-center">
+            <div class="row">
+              <div class="col">
+                <a href="#" class="text-decoration-none">
+                <div class="card bg-secondary text-light d-flex align-items-center justify-content-center py-3">
+                    <img src="static/img/podcast1.jpeg" height="240px" alt=""> 
+                </div>
+                </a>
+              </div>
+              <div class="col">
+                <a href="#" class="text-decoration-none">
+                <div class="card bg-secondary text-light d-flex align-items-center justify-content-center py-3">
+                    <img src="static/img/podcast2.jpeg" height="240px" alt=""> 
+                </div>
+                </a>
+              </div>
+              <div class="col">
+                <a href="#" class="text-decoration-none">
+                <div class="card bg-secondary text-light d-flex align-items-center justify-content-center py-3">
+                    <img src="static/img/podcast3.png" height="240px" alt=""> 
+                </div>
+                </a>
+              </div>
+              <div class="col">
+                <a href="#" class="text-decoration-none">
+                <div class="card bg-secondary text-light d-flex align-items-center justify-content-center py-3">
+                    <img src="static/img/podcast3.png" height="240px" alt=""> 
+                </div>
+                </a>
+              </div>
+              <div class="col">
+                <a href="#" class="text-decoration-none">
+                <div class="card bg-secondary text-light d-flex align-items-center justify-content-center py-3">
+                    <img src="static/img/traviscott.jpeg" height="240px" alt=""> 
+                </div>
+                </a>
+              </div>       
+            </div>
+          </div>
+    </section>
+
+   
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
